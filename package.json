@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/Heroldi/matriz-raci/issues"
   },
-  "homepage": "https://github.com/Heroldi/matriz-raci#readme"
+  "homepage": "https://github.com/Heroldi/matriz-raci#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.10"
+  },
+  "devDependencies": {}
 }
