@@ -36,17 +36,17 @@ mongoose.connection.on('disconnected', () => {
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-/*// importando os arquivos de rotas
+// importando os arquivos de rotas
 const userRoutes = require('./routes/users');
-const productRoutes = require('./routes/products');
-const storeRoutes = require('./routes/stores');
+//const productRoutes = require('./routes/products');
+//const storeRoutes = require('./routes/stores');
 
 // associando as duas instâncias de rotas ao app
 app.use('/users', userRoutes);
-app.use('/products', productRoutes);
-app.use('/stores', storeRoutes);
+//app.use('/products', productRoutes);
+//app.use('/stores', storeRoutes);
 
-// configurando a porta em que a API ficará ouvindo*/
+// configurando a porta em que a API ficará ouvindo
 app.listen(3000);
 
 // exportando o módulo
